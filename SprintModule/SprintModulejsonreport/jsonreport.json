@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Creating a sprint with valid data",
+        "description": "",
+        "id": "validating-sprint-module;creating-a-sprint-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3190289500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open the Browser and launch the application",
+            "match": {
+              "location": "Steps.open_the_Browser_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56604971000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter the homepage",
+            "match": {
+              "location": "Steps.enter_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2317255300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on Add Sprint",
+            "match": {
+              "location": "Steps.click_on_Add_Sprint()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4387825100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid data",
+            "match": {
+              "location": "Steps.enter_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5819148500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on save",
+            "match": {
+              "location": "Steps.click_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847674400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the Browser",
+            "match": {
+              "location": "Steps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Creating a sprint with invalid data",
+        "description": "",
+        "id": "validating-sprint-module;creating-a-sprint-with-invalid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2906773000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open the Browser and launch the application",
+            "match": {
+              "location": "Steps.open_the_Browser_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37888885300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the homepage",
+            "match": {
+              "location": "Steps.enter_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2462080600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on Add Sprint",
+            "match": {
+              "location": "Steps.click_on_Add_Sprint()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3152885900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter invalid data",
+            "match": {
+              "location": "Steps.enter_invalid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5250281700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on save",
+            "match": {
+              "location": "Steps.click_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 805108400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the Browser",
+            "match": {
+              "location": "Steps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Sprint module",
+    "description": "",
+    "id": "validating-sprint-module",
+    "keyword": "Feature",
+    "uri": "MyTest.feature"
+  }
+]

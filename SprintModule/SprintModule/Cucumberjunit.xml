@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="96.839012">
+<testcase classname="Validating Sprint module" name="Creating a sprint with valid data" time="74.164009">
+<system-out><![CDATA[Given Open the Browser and launch the application...........................passed
+When enter the homepage.....................................................passed
+And click on Add Sprint.....................................................passed
+And enter valid data........................................................passed
+And click on save...........................................................passed
+Then close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Sprint module" name="Creating a sprint with invalid data" time="22.675003">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//header/nav[1]/div[1]/div[1]/div[3]/div[1]/span[1]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MSI', ip: '192.168.29.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at pages.HomePage.hoverToNavbar(HomePage.java:32)&#13;&#10;&#9;at stepdefintion.Steps.enter_the_homepage(Steps.java:33)&#13;&#10;&#9;at ✽.When enter the homepage(MyTest.feature:12)&#13;&#10;"><![CDATA[Given Open the Browser and launch the application...........................passed
+When enter the homepage.....................................................failed
+And click on Add Sprint.....................................................skipped
+And enter invalid data......................................................skipped
+And click on save...........................................................skipped
+Then close the Browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//header/nav[1]/div[1]/div[1]/div[3]/div[1]/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.29.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.HomePage.hoverToNavbar(HomePage.java:32)
+	at stepdefintion.Steps.enter_the_homepage(Steps.java:33)
+	at ✽.When enter the homepage(MyTest.feature:12)
+]]></failure>
+</testcase>
+</testsuite>

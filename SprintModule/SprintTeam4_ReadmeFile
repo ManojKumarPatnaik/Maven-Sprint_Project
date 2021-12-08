@@ -1,0 +1,45 @@
+CONTENTS OF THIS FILE
+------------------------------------
+
+ * Introduction
+ * Pre-requisites
+ * Tools Used
+ * Procedure for accessing
+
+Introduction:
+
+The Sprint module is present under the plan drop down in mainspring webpage. This module allows us to create Sprint by giving the details on the details page.
+This module allows us to create Sprint by filling fields in the UI.
+
+Pre-requisites:
+
+The mainspring module should be opened by the authenticated user. 
+Url for Mainspring : https://pratesting.cognizant.com
+
+Frameworks & Tools Used:
+			* Selenium Web Driver (Version 3.141.59)
+			* Maven 
+			* TestNG (Version 7.4.0)
+			* Cucumber (Version 1.2.4)
+			* Apache POI (Version 5.0.0)
+
+Procedure for accessing Main Sprint:
+
+1. Open Browser and load the URL
+2. Login using the cognizant credentials
+3. Hover over the Hamburger icon Under the Project/Program, select COF_onsite 
+4. Select Sprint Under Plan
+5. Enter all the valid data save the page
+
+Creating a Sprint module:
+
+You can create a Sprint module, enter information about a task that is identified during a client review meeting, status report meeting, or project management review meeting.
+When you create a Sprint module, you can specify the information, such as the name and description of the Sprint module, the level of priority associated with the sprint module, and the date when you need to complete work on the Sprint module.
+
+Adding a Sprint module:
+
+You can add a Sprint module by clicking on “+” button on the page.
+You can view a list of Sprint in the project or program, you have to fill the fields and then click on save button Sprint will be created.
+
+Execution of the code:
+ 	The code will be executed through testng.xml file.

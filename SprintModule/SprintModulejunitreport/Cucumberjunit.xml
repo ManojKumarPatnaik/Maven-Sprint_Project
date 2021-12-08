@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="125.633179">
+<testcase classname="Validating Sprint module" name="Creating a sprint with valid data" time="73.167164">
+<system-out><![CDATA[Given Open the Browser and launch the application...........................passed
+When enter the homepage.....................................................passed
+And click on Add Sprint.....................................................passed
+And enter valid data........................................................passed
+And click on save...........................................................passed
+Then close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Sprint module" name="Creating a sprint with invalid data" time="52.466015">
+<system-out><![CDATA[Given Open the Browser and launch the application...........................passed
+When enter the homepage.....................................................passed
+And click on Add Sprint.....................................................passed
+And enter invalid data......................................................passed
+And click on save...........................................................passed
+Then close the Browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
